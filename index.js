@@ -136,4 +136,4 @@ bot.on('guildMemberRemove', (member) => {
     removeStatus(member.toString());
 });
 
-bot.login('NDY0MDg2MDkxMDYyODM3Mjc5.Dh54SA.S4o0f1mEBVZ_hoqUx3T1pWtXacM');
+bot.login(process.env.BOT_TOKEN);
